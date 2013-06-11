@@ -18,11 +18,5 @@ package tjenkinson.callbackHelper {
 				return fn.apply(null, args);
 			};
 		}
-		
-		public static function storeVar(a:Object):Function {
-			return function():Object {
-				return a;
-			};
-		}
 	}
 }
