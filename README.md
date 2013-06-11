@@ -7,4 +7,6 @@ Please look in Demo.as to see how it is implemented.
 
 To get the anonymous function that you want to call in the future you call CallbackHelper.createCallback() and pass the anonymous function in as the first paramater. Then in all subsequent paramaters you pass in the variables that the anonymous function is expecting as paramaters. The anonymous function will receive these variables with the values they contain at this point, not the values they contain when the function is later executed.
 
+You can also pass paramates in to the function when it is called in the future and each of these non null paramaters will take precedence.
+
 Please let me know if you find this useful.
